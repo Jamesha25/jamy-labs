@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://jamylabs.com
+
+# Sitemaps
+Sitemap: https://jamylabs.com/sitemap.xml

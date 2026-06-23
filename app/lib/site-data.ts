@@ -1,7 +1,7 @@
 export const siteData = {
   contact: {
     email: 'jamy.devv@gmail.com',
-    phone: '+91 9629002859',
+    phone: '+91 6382938200',
     location: 'Coimbatore, TN, India',
     responseTime: 'Within 24 hours',
   },

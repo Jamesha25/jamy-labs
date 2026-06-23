@@ -47,6 +47,8 @@ export const metadata: Metadata = {
 // import { Sparkles } from "./components/Sparkles";
 import { Navigation } from "./components/Navigation";
 import Footer from "./components/Footer";
+import { WhatsAppCTA } from "@/components/WhatsAppCTA";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 export default function RootLayout({
   children,
@@ -66,6 +68,8 @@ export default function RootLayout({
           {children}
         </div>
         <Footer />
+        <WhatsAppCTA />
+        <ScrollToTop />
       </body>
     </html>
   );

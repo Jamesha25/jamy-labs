@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { services } from './lib/services';
 import { siteData } from './lib/site-data';
+import { ArrowRightIcon, SearchIcon, ChatIcon, SendIcon } from '../components/icons';
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -106,9 +107,7 @@ export default function Home() {
               >
                 <span className="relative z-10 flex items-center space-x-2">
                   <span>Start Your Project</span>
-                  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+                  <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </Link>
@@ -118,9 +117,7 @@ export default function Home() {
               >
                 <span className="flex items-center space-x-2">
                   <span>Explore Services</span>
-                  <svg className="w-5 h-5 group-hover:rotate-45 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
+                  <SearchIcon className="w-5 h-5 group-hover:rotate-45 transition-transform duration-300" />
                 </span>
               </Link>
             </div>
@@ -206,9 +203,7 @@ export default function Home() {
                   <Link href={`/services/${service.slug}`} className="mt-6 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 block">
                     <div className="inline-flex items-center text-blue-600 dark:text-blue-400 font-semibold">
                       <span>Learn more</span>
-                      <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </svg>
+                      <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                     </div>
                   </Link>
                 </div>
@@ -226,9 +221,7 @@ export default function Home() {
               className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105"
             >
               <span>Discuss Your Project</span>
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-              </svg>
+              <ChatIcon className="w-5 h-5" />
             </Link>
           </div>
         </div>
@@ -536,9 +529,7 @@ export default function Home() {
                   >
                     <span className="relative z-10 flex items-center justify-center space-x-2">
                       <span>Send Message</span>
-                      <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                      </svg>
+                      <SendIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                     </span>
                     <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   </button>

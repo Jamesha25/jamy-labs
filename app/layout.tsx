@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jamylabs.com"),
+  metadataBase: new URL("https://jamylabs.in"),
   title: {
     default: "Jamy Labs | Custom Software Development Company",
     template: "%s | Jamy Labs"
@@ -28,15 +28,24 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://jamylabs.com",
+    url: "https://jamylabs.in",
     siteName: "Jamy Labs",
     title: "Jamy Labs | Custom Software Development Company",
     description: "Building scalable software solutions that help businesses grow faster.",
+    images: [
+      {
+        url: "/jamy-labs-logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Jamy Labs Logo",
+      }
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Jamy Labs | Custom Software Development Company",
     description: "Building scalable software solutions that help businesses grow faster.",
+    images: ["/jamy-labs-logo.jpeg"],
   },
   robots: {
     index: true,

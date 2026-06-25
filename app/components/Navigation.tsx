@@ -65,7 +65,7 @@ export function Navigation() {
                   Jamy Labs
                 </span>
                 <div className="text-xs text-gray-500 dark:text-gray-400 font-medium">
-                  From Idea to Impact
+                  From Ideas to Impact
                 </div>
               </div>
             </Link>

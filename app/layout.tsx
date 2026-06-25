@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: "Building scalable software solutions that help businesses grow faster.",
     images: [
       {
-        url: "/jamy-labs-logo.jpeg",
+        url: "/jamy-lab-logo.jpeg",
         width: 1200,
         height: 630,
         alt: "Jamy Labs Logo",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Jamy Labs | Custom Software Development Company",
     description: "Building scalable software solutions that help businesses grow faster.",
-    images: ["/jamy-labs-logo.jpeg"],
+    images: ["/jamy-lab-logo.jpeg"],
   },
   robots: {
     index: true,
